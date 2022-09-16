@@ -70,3 +70,28 @@
     width: 400px;
     height: auto;
 }
+
+/* info section styling*/
+
+.info{
+    padding: 70px 200px 150px 200px;
+}
+.info h2{
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+.img-container{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
